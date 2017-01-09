@@ -21,6 +21,12 @@ static class myplayGamClass implements PlayGame{
 		public void play(){
 			System.out.println(" game is on");
 		}
+
+		@Override
+		public void play(int x, int y) {
+			// TODO Auto-generated method stub
+			
+		}
 	}
 
 }

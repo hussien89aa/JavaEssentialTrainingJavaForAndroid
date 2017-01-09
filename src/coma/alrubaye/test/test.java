@@ -12,6 +12,8 @@ public class test {
 			 Round=Round+1;
 		 System.out.println("Round:"+Round);
 	
-	
+	int[][] a= new int[5][4];
+	a[1][2]=11;
+	 System.out.println(	a[1][2]);
 	}
 }
