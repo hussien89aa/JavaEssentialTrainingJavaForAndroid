@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'TicTacToyGame.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJUaWNUYWNUb3lHYW1lLmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5UaWNUYWNUb3lHYW1lPC90aXRsZT4KICAgIDx2ZW5kb3I+aHVzc2llbmFscnViYXllPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9IlRpY1RhY1RveUdhbWUuamFyIiBzaXplPSIzMzE3IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJUaWNUYWNUb3lHYW1lIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0idGljdGFjdG95Z2FtZS5UaWNUYWNUb3lHYW1lIiAgbmFtZT0iVGljVGFjVG95R2FtZSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedtictactoygame() {
+        dtjava.embed(
+            {
+                id : 'tictactoygame',
+                url : 'TicTacToyGame.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJUaWNUYWNUb3lHYW1lLmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5UaWNUYWNUb3lHYW1lPC90aXRsZT4KICAgIDx2ZW5kb3I+aHVzc2llbmFscnViYXllPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9IlRpY1RhY1RveUdhbWUuamFyIiBzaXplPSIzMzE3IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJUaWNUYWNUb3lHYW1lIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0idGljdGFjdG95Z2FtZS5UaWNUYWNUb3lHYW1lIiAgbmFtZT0iVGljVGFjVG95R2FtZSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedtictactoygame);
+</script>
+
+</head><body>
+<h2>Test page for <b>TicTacToyGame</b></h2>
+  <b>Webstart:</b> <a href='TicTacToyGame.jnlp' onclick="return launchApplication('TicTacToyGame.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
