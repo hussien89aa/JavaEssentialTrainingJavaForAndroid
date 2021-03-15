@@ -1,4 +1,4 @@
-## snapped code for Java-Essential Training-Java For Android PlayList in Udemy, check the videos Tutorial  [here](https://www.udemy.com/java-essential-training/?couponCode=GITHUBDISCOUNT)
+## snapped code for Java-Essential Training-Java For Android PlayList in Youtube, check the videos Tutorial  [here](https://www.youtube.com/channel/UCVNrwqQVKuQtnHHDfuFKc4w/videos)
 
 
 
